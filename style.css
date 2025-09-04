@@ -1,0 +1,82 @@
+.newtask {
+    color: green;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal-screen {
+    margin-top: 10px;
+    background-color: rosybrown;
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+.input {
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.ok {
+     margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.ex {
+     margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* فاصله بین تسک‌ها */
+  margin-top: 20px;
+}
+
+.todo-div {
+  display: flex;
+  justify-content: space-between; /* متن سمت چپ، دکمه سمت راست */
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #f9f9f9;
+}
+
+.todo-div p {
+  margin: 0;
+  flex: 1; /* متن فضا بگیره */
+}
+
+.remove-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.remove-btn:hover {
+  background: #d93636;
+}
+
+
+.remove-btn {
+    border-radius: 10px;
+    background-color: red;
+}
+
+.todo-div {
+    background-color: rosybrown;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+
